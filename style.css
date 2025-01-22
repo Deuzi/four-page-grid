@@ -64,14 +64,34 @@ header p {
 .article-container article{
     background-color: var(--white);
     border-radius: 10px;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     width: clamp(270px 311px, 350px);
     height: clamp(200px, 220px, 250px);
     padding: 1.1em;
     color: var(--Very-Dark-Blue);
-};
+    box-shadow: 0 7px 8px  var(--Grayish-Blue);  
+}
+
+/* figure {
+    display: flex;
+}
+
+figure img{
+    margin-left: auto;
+} */
 
 
+/* article-border */
+.supervisor{
+    border-top: 7px solid var(--Cyan);
+}
+.team-b{
+    border-top: 7px solid var(--Red);
+}
+.karma{
+    border-top: 7px solid var(--Orange);
+}
+.calculator{
+    border-top: 7px solid var(--Blue);
+}
 
-
-   
