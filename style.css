@@ -76,6 +76,7 @@ header p {
 article p{
     color: var(--Grayish-Blue) ;
     margin-top: 0.7em;
+    font-size: 13px;
 }
 
 article h3{
@@ -107,7 +108,7 @@ figure img {
 }
 .calculator{
     border-top: 7px solid var(--Blue);
-}
+} 
 
 
 
